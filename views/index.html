@@ -12,6 +12,7 @@
     <script src="../assets/popper.min.js"></script>
     <script src="../assets/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="../assets/model.js"></script>
     <script type="text/javascript" src="../assets/index.js"></script>
   </head>
 
@@ -27,6 +28,15 @@
 	  </div>
 	</div>
       </div>
+      <template id="exercise-screen">
+	<div class="exercise">
+	  <h3 class="exercise-name display-3"></h3>
+	  <div class="exercise-time"></div>
+	  <button class="exercise-reset btn btn-primary"> &lt;&lt; </button>
+	  <button class="exercise-pause btn btn-primary"> || </button>
+	  <button class="exercise-skip btn btn-primary"> &gt;&gt; </button>
+	</div>
+      </template>
     </div>
 
   </body>
